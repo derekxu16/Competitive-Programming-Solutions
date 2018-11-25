@@ -3,3 +3,9 @@ HackerRank/coinchange
 HackerRank/librarysandroads
 .vscode/settings.json
 *.json
+CodeForces
+*.xml
+*.o
+*.so
+*.a
+*.iml
