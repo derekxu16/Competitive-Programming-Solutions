@@ -58,8 +58,6 @@ int main() {
     int A[] = {0, 8, 2, 5, 5, 1, 1, 10};
     int B[] = {8, 2, 7, 11, 1, 3, 9, 6};
     int T[] = {4, 2, 4, 3, 7, 1, 5, 3};
-
-    //travelTime(N, M, L, A, B, T);
 }
 
 int travelTime(int N, int M, int L, int A[], int B[], int T[]) {
