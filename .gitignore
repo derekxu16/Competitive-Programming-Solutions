@@ -1,11 +1,11 @@
-HackerRank/countingsort2
-HackerRank/coinchange
-HackerRank/librarysandroads
-.vscode/settings.json
-*.json
 CodeForces
+.vscode/settings.json
+.DS_Store
+*.json
+*.iml
 *.xml
 *.o
 *.so
 *.a
-*.iml
+
+tempCodeRunnerFile.*
