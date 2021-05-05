@@ -48,7 +48,6 @@ main:
     mov rdi, print_int
     movsx rsi, al
     push rcx
-    mov rax, 0
     call printf
     pop rcx
     mov rdi, 0
