@@ -1,17 +1,16 @@
-:- assertz(edge(1, 1)).
-
-main :- read_line_to_string(user_input, Line), 
+main :- read_line_to_string(user_input, Line),
         split_string(Line, " ", "", Args),
         [_, M_, A_ ,B_] = Args,
-        number_string(M, M_), 
-        number_string(A, A_), 
-        number_string(B, B_), 
+        number_string(M, M_),
+        number_string(A, A_),
+        number_string(B, B_),
+        assertz(edge(A, A)),
         readEdges(M),
         empty_nb_set(Visited),
         (connected(A, B, Visited) -> write("GO SHAHIR!\n") ; write("NO SHAHIR!\n")).
 
 readEdges(0) :- !.
-readEdges(I) :- read_line_to_string(user_input, Line), 
+readEdges(I) :- read_line_to_string(user_input, Line),
                 split_string(Line, " ", "", Edge),
                 [X_, Y_] = Edge,
                 number_string(X, X_),
