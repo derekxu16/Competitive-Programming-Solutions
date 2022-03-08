@@ -2,6 +2,12 @@
 
 .DS_Store
 
+# OCaml
+**/*/_build/
+**/*/dune
+**/*/dune-project
+
+# Zig
 **/*/zig-cache/
 
 *.json
