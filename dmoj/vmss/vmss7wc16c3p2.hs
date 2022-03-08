@@ -17,8 +17,7 @@ dfs graph u goal visited =
            || let updatedVisited = visited // [(u, True)]
                in foldr
                     ( \v accumulator ->
-                        dfs graph v goal updatedVisited
-                          || (accumulator :: Bool)
+                        dfs graph v goal updatedVisited || accumulator
                     )
                     False
                     (graph ! u :: [Int])
