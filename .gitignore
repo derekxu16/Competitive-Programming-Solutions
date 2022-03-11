@@ -10,7 +10,6 @@
 # Zig
 **/*/zig-cache/
 
-*.json
 *.iml
 *.xml
 *.o
