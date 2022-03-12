@@ -12,14 +12,14 @@ parseExpression :: [String] -> (Expression, [String])
 parseExpression terms =
   case terms of
     [] -> error "Unreachable"
-    (token : tail) ->
+    (token : rest) ->
       if token == "+" || token == "-"
         then
           let constructor = if token == "+" then Add else Sub
-           in let (lhs_node, lhs_tokens) = parseExpression tail
+           in let (lhs_node, lhs_tokens) = parseExpression rest
                in let (rhs_node, rhs_tokens) = parseExpression lhs_tokens
                    in (constructor lhs_node rhs_node, rhs_tokens)
-        else (Num token, tail)
+        else (Num token, rest)
 
 solve :: String -> String
 solve line =
