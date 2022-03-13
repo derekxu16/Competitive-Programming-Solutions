@@ -7,6 +7,11 @@
 **/*/dune
 **/*/dune-project
 
+# Rust
+Cargo.lock
+Cargo.toml
+**/*/target/
+
 # Zig
 **/*/zig-cache/
 
