@@ -1,6 +1,6 @@
-#include <iostream>
 #include <algorithm>
 #include <deque>
+#include <iostream>
 #include <utility>
 
 template <typename T>
@@ -29,17 +29,15 @@ class MinMaxQueue {
             q.pop_back();
         }
         q.emplace_back(to_insert, insert_index);
-        insert_index ++;
+        insert_index++;
     }
     void popFront() {
         if (q.front().second == erase_index) {
             q.pop_front();
         }
-        erase_index ++;
+        erase_index++;
     }
-    T front() {
-        return q.front().first;
-    }
+    T front() { return q.front().first; }
 };
 
 using namespace std;
@@ -52,17 +50,17 @@ int main() {
 
     long long sum[200001];
     sum[0] = 0;
-    for (int i = 1; i <= n; i ++) {
-        scanf("%lli", sum+i);
-        sum[i] += sum[i-1];
+    for (int i = 1; i <= n; i++) {
+        scanf("%lli", sum + i);
+        sum[i] += sum[i - 1];
     }
 
     long long ans = -9e18;
-    for (int i = a; i <= n; i ++) {
+    for (int i = a; i <= n; i++) {
         if (i > b) {
             q.popFront();
         }
-        q.pushBack(sum[i-a]);
+        q.pushBack(sum[i - a]);
         ans = max(ans, (long long)(sum[i] - q.front()));
     }
 
