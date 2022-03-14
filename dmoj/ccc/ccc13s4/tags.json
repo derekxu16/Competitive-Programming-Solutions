@@ -1,1 +1,5 @@
-["graph theory", "dfs"]
+{
+  "name": "Who is Taller?",
+  "link": "https://dmoj.ca/problem/ccc13s4",
+  "tags": ["graph theory", "dfs"]
+}

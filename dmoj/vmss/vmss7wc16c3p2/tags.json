@@ -1,1 +1,5 @@
-["graph theory", "dfs"]
+{
+  "name": "Can Shahir even get there?!",
+  "link": "https://dmoj.ca/problem/vmss7wc16c3p2",
+  "tags": ["graph theory", "dfs"]
+}

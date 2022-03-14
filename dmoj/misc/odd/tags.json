@@ -1,1 +1,5 @@
-["bitwise operations", "xor"]
+{
+  "name": "The Odd Number",
+  "link": "https://dmoj.ca/problem/odd",
+  "tags": ["bitwise operations", "xor"]
+}

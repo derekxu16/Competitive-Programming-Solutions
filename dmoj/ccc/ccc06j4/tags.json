@@ -1,1 +1,5 @@
-["topological sorting", "kahn's algorithm"]
+{
+  "name": "It's tough being a teen!",
+  "link": "https://dmoj.ca/problem/ccc06j4",
+  "tags": ["topological sorting", "kahn's algorithm"]
+}

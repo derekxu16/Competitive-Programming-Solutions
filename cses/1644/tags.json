@@ -1,1 +1,5 @@
-["sliding window", "min queue"]
+{
+  "name": "Maximum Subarray Sum II",
+  "link": "https://cses.fi/problemset/task/1644",
+  "tags": ["sliding window", "prefix sums", "min queue"]
+}
