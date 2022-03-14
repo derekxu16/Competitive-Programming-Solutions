@@ -1,5 +1,5 @@
 {
   "name": "Maximum Subarray Sum",
   "link": "https://cses.fi/problemset/task/1643",
-  "tags": ["prefix sums", "subarrays"]
+  "tags": ["prefix sums", "subarrays", "kadane's algorithm"]
 }
