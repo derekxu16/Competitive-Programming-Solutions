@@ -1,5 +1,5 @@
 import qualified Data.Char (ord)
-import qualified Data.List (intersect, length, lines, sort)
+import qualified Data.List (intersect, lines)
 
 solve lines = case lines of
   [] -> 0
