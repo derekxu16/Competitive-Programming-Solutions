@@ -1,5 +1,6 @@
 import qualified Data.List (lines)
 
+main :: IO ()
 main =
   interact
     ( \full_input ->
