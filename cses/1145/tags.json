@@ -1,0 +1,5 @@
+{
+  "name": "Increasing Subsequence",
+  "link": "https://cses.fi/problemset/task/1145",
+  "tags": ["dp", "longest increasing subsequence"]
+}
